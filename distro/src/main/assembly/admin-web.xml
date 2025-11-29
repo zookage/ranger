@@ -96,11 +96,6 @@
         <directoryMode>755</directoryMode>
         <fileMode>644</fileMode>
         <includes>
-            <include>org.apache.hbase:hbase-common:jar:${hbase.version}</include>
-            <include>org.apache.hbase:hbase-client:jar:${hbase.version}</include>
-            <include>org.apache.hbase:hbase-protocol:jar:${hbase.version}</include>
-            <include>org.apache.hbase:hbase-server:jar:${hbase.version}</include>
-            <include>org.apache.hbase:hbase-protocol-shaded:jar:${hbase.version}</include>
             <include>org.apache.hbase:hbase-shaded-client:jar:${hbase.version}</include>
             <include>org.apache.hbase.thirdparty:hbase-shaded-protobuf:jar:${hbase-shaded-protobuf}</include>
             <include>org.apache.hbase.thirdparty:hbase-shaded-netty:jar:${hbase-shaded-netty}</include>
